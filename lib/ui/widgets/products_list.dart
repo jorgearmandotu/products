@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../models/produtc_model.dart';
 import '../../bloc/products_list_bloc.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
 
 class ProductsList extends StatelessWidget {
 
@@ -23,8 +22,17 @@ class ProductsList extends StatelessWidget {
                 height: _screenSize.height*0.5,
                 child: ListView.builder(
                   itemCount: snapshot.data.length,
+                  onPressed: ,
                   itemBuilder: (BuildContext context, int index ){
-                    return Text(snapshot.data[index].nombre);
+                    return Row(
+                      children: <Widget>[
+                        Text(snapshot.data[index].nombre,),
+                        Text(' -> '),
+                        Text(snapshot.data[index].unidad),
+                        Text(' -> '),
+                        Text(snapshot.data[index].presentacion),
+                      ], 
+                    );
                   },
                 ),
               )
