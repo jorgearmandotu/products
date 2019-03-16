@@ -1,0 +1,33 @@
+{
+    "products": 
+    [
+        {
+            "id": 1,
+            "nombre": "arroz",
+            "unidad": "gr",
+            "categoria": "alimentos",
+            "presentacion": "cuarto"
+        },
+        {
+            "id": 2,
+            "nombre": "huevos",
+            "unidad": "und",
+            "categoria": "alimentos",
+            "presentacion": "panal"
+        },
+        {
+            "id": 3,
+            "nombre": "carne",
+            "unidad": "gr",
+            "categoria": "alimentos",
+            "presentacion": "kl"
+        },
+        {
+            "id": 4,
+            "nombre": "leche",
+            "unidad": "ml",
+            "categoria": "alimentos",
+            "presentacion": "bolsa"
+        }
+    ]
+}
